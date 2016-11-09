@@ -1,24 +1,25 @@
 import java.util.Random;
 
 /**
- * Part 1
- * 
- * expected output:
- * 
- * Moon jelly is the most common of the jelly fish
- * 
- * The white spotted jellyfish has phosphorescent dots
- * 
- * The lion's mane jellyfish is 6ft in diameter and 100 feet long.
- * 
- * The Australian Sea Wasp killed you!
- * 
- * **the last line should be "did not kill you" based on the function's value
  * 
  * @author cforster
+ * 
+ *         Part 1
+ * 
+ *         expected output:
+ * 
+ *         Moon jelly is the most common of the jelly fish
+ * 
+ *         The white spotted jellyfish has phosphorescent dots
+ * 
+ *         The lion's mane jellyfish is 6ft in diameter and 100 feet long.
+ * 
+ *         The Australian Sea Wasp killed you!
+ * 
+ *         **the last line should be "did not kill you" based on the function's
+ *         value
  *
  */
-
 public class Jellyfish {
     // MODIFY THIS CODE:
     /**
@@ -48,7 +49,7 @@ public class Jellyfish {
     }
 
     /**
-     * @param length
+     * @param length - How long in feet
      * @return - A String about the lions mane
      */
     static String lionsMane(int length) {
@@ -62,5 +63,4 @@ public class Jellyfish {
 	Random gen = new Random();
 	return gen.nextBoolean();
     }
-
 }

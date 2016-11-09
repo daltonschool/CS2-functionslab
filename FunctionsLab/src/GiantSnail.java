@@ -1,9 +1,7 @@
-//take parameters
-
 /**
  * @author cforster
  * 
- *         Part 3
+ *         Part 3: Take parameters
  * 
  *         Expected output is:
  * 
@@ -31,7 +29,7 @@ public class GiantSnail {
 
     // MODIFY STARTING HERE:
     /**
-     * prints an invasion of giant snails based on a location
+     * Print an invasion of giant snails based on a location.
      * 
      * @param location
      *            the location of the invasion
@@ -41,35 +39,35 @@ public class GiantSnail {
     }
 
     /**
-     * prints the number of snails collected
+     * Prints the number of snails collected.
      * 
-     * @param how_many
+     * @param howMany
      *            the number of snails
      */
-    static void count(int how_many) {
+    static void count(int howMany) {
 
     }
 
     /**
-     * prints the density of giant snails
+     * Print the density of giant snails.
      * 
-     * @param how_many
+     * @param howMany
      *            the number of snails
-     * @param how_large
+     * @param howLarge
      *            the size of the space they are in
      */
-    static void dense(double how_many, double how_large) {
+    static void dense(double howMany, double howLarge) {
 
     }
 
     /**
-     * prints the density of the giant snails assuming they are in rhode island
-     * (1212sq feet):
+     * Prints the density of the giant snails assuming they are in rhode island
+     * (1212sq feet).
      * 
-     * @param how_many
+     * @param howMany
      *            the number of snails
      */
-    static void dense(double how_many) {
+    static void dense(double howMany) {
 
     }
 }
