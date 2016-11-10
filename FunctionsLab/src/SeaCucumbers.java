@@ -1,27 +1,27 @@
 import java.util.Random;
 
 /**
+ * Part 2
+ * 
+ * Expected Output:
+ * 
+ * The scientific name for the sea cucumber is Holothuroidea.
+ * 
+ * There are 1250 species of sea cucumber.
+ * 
+ * My favorite type is the warty sea cucumber.
+ * 
+ * I have 239 sea cucumbers in my pond.
+ * 
+ * My favorite sea cucumber song is Ode to the Cucumber.
+ * 
  * @author cforster
- * 
- *         Part 2
- * 
- *         Expected Output:
- * 
- *         The scientific name for the sea cucumber is Holothuroidea
- * 
- *         There are 1250 species of sea cucumber.
- * 
- *         My favorite type is the warty sea cucumber.
- * 
- *         I have 239 sea cucumbers in my pond.
- * 
- *         My favorite sea cucumber song is Ode to the Cucumber.
  */
 public class SeaCucumbers {
     // DONT MODIFY THIS CODE:
     /**
      * @param args
-     *            - command line input (not used)
+     *            command line input (not used)
      */
     public static void main(String[] args) {
 	System.out.print("The scientific name for the sea cucumber is ");
@@ -37,9 +37,9 @@ public class SeaCucumbers {
     }
 
     /*
-     *  MODIFY THIS CODE:
+     * MODIFY THIS CODE:
      */
-    
+
     /**
      * Display a scientific name.
      */
@@ -48,31 +48,30 @@ public class SeaCucumbers {
     }
 
     /**
-     * @return - number of species
+     * @return number of species
      */
     static int species() {
 	return 0;
     }
 
     /**
-     * @return - String
+     * @return the word "warty"
      */
     static String warty() {
 	return null;
     }
 
     /**
-     * @return - Random
+     * @return a random number
      */
     static Random rando() {
 	return null;
     }
 
     /**
-     * @return - String array
+     * @return a String array
      */
     static String[] song() {
 	return null;
     }
 }
-

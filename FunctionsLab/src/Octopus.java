@@ -1,7 +1,7 @@
 /**
- * @author cforster
+ * Part 5: Global variables
  * 
- *         Part 5: Global variables
+ * @author cforster        
  */
 public class Octopus {
     static String[] hands = new String[8];
@@ -10,7 +10,7 @@ public class Octopus {
     // DO NOT MODIFY THIS CODE:
     /**
      * @param args
-     *            - command line input (not used)
+     *           command line input (not used)
      */
     public static void main(String[] args) {
 	octoStatus();
@@ -32,10 +32,9 @@ public class Octopus {
     // MODIFY THIS CODE:
 
     /**
-     * Prints all the hand tools and the name in the following format:
-     * 
-     * ------------------- Name:[name] 0:[tool0] | 1:[tool1] | 2:[tool2] |
-     * 3:[tool3] | 4:[tool4] | 5:[tool5] | 6:[tool6] | 7:[tool7] |
+     * Prints all the hand tools and the name in the following format.
+     * ------------------- 
+     * Name:[name] | 0:[tool0] | 1:[tool1] | 2:[tool2] | 3:[tool3] | 4:[tool4] | 5:[tool5] | 6:[tool6] | 7:[tool7] |
      * -------------------
      * 
      */
@@ -80,7 +79,7 @@ public class Octopus {
     /**
      * A random tool finder.
      * 
-     * @return give a random tool in it.
+     * @return name of a random tool
      */
     static String randomHand() {
 	return null;

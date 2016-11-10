@@ -1,29 +1,27 @@
-//take parameters, return value
-
 /**
- * @author cforster Part 4
+ * Part 4: Take parameters and return values.
  * 
- *         expected output:
+ * Expected output:
  * 
- *         A female is called a mermaid
+ * A female is called a mermaid.
  * 
- *         A male is called a merman
+ * A male is called a merman.
  * 
- *         The oldest mermaid is 86 years old
+ * The oldest mermaid is 86 years old.
  * 
- *         Mermaids like to swim swim swim swim swim!
+ * Mermaids like to swim swim swim swim swim!
  * 
- *         some mer ages: 23, 44, 25, 1, 12, 99,
+ * some mer ages: 23, 44, 25, 1, 12, 99,
  * 
- *         King Triton is 86 sea years old!
+ * King Triton is 86 sea years old!
  * 
+ * @author cforster
  */
-
 public class Mermaid {
     // DO NOT MODIFY THIS CODE:
     /**
      * @param args
-     *            - command line input (not used)
+     *            command line input (not used)
      */
     public static void main(String[] args) {
 	System.out.println("A female is called a " + name(true));

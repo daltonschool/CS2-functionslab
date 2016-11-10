@@ -1,17 +1,23 @@
 import java.util.Random;
 
 /**
+ * Part 6
+ * 
+ * Your task: Reorganize this class so the main is no more than ten lines.
+ * 
  * @author cforster
- * 
- *         Part 6
- * 
- *         Your task: Reorganize this class so the main is no more than ten
- *         lines.
  * 
  */
 public class Seaweed {
+    
     /**
-     * @param args - command line input (not used)
+     * Constants.
+     */
+    static final int DOZEN = 12;
+
+    /**
+     * @param args
+     *            command line input (not used)
      */
     public static void main(String[] args) {
 	String[] weedTypes = new String[] { "Green", "Brown", "Red", "Mossy", "Fan-Shaped", "Edible", "Fibrous" };
@@ -40,23 +46,23 @@ public class Seaweed {
 	    }
 	}
 
-	// all names:
+	// display all names:
 	for (int j = 0; j < weedNames.length; j++) {
 	    System.out.print(weedNames[j] + ", ");
 	}
 
-	// random names:
+	// display random names:
 	System.out.println("some random names...");
-	for (int j = 0; j < 10; j++) {
+	for (int j = 0; j < DOZEN; j++) {
 	    int type = gen.nextInt(weedTypes.length);
 	    int name = gen.nextInt(weedNames.length);
 	    String output = weedTypes[type] + " " + weedNames[name];
 	    System.out.println(output);
 	}
 
+	// display more random names:
 	System.out.println("more random names...");
-	// random names:
-	for (int j = 0; j < 12; j++) {
+	for (int j = 0; j < DOZEN; j++) {
 	    int type = gen.nextInt(weedTypes.length);
 	    int name = gen.nextInt(weedNames.length);
 	    String output = weedTypes[type] + " " + weedNames[name];

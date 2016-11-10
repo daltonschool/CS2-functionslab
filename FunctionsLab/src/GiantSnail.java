@@ -1,24 +1,24 @@
 /**
+ * Part 3: Take parameters
+ * 
+ * Expected output is:
+ * 
+ * The Giant Snails are invading Miami, Florida.
+ * 
+ * They collected 78000 african land snails.
+ * 
+ * There are 1 snails per square foot in Florida.
+ * 
+ * If that was rhode island, there would be 64 snails per square foot.
+ * 
  * @author cforster
- * 
- *         Part 3: Take parameters
- * 
- *         Expected output is:
- * 
- *         The Giant Snails are invading Miami, Florida.
- * 
- *         They collected 78000 african land snails.
- * 
- *         There are 1 snails per square foot in Florida.
- * 
- *         If that was rhode island, there would be 64 snails per square foot.
- * 
  */
 public class GiantSnail {
     // DONT MODIFY THIS CODE:
-    
+
     /**
-     * @param args - command line input (not used)
+     * @param args
+     *            command line input (not used)
      */
     public static void main(String[] args) {
 	invade("Miami, Florida");
