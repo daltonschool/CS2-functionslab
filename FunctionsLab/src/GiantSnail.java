@@ -34,7 +34,7 @@ public class GiantSnail {
      * @param location
      *            the location of the invasion
      */
-    static void invade(String location) {
+    public static void invade(String location) {
 
     }
 
@@ -44,7 +44,7 @@ public class GiantSnail {
      * @param howMany
      *            the number of snails
      */
-    static void count(int howMany) {
+    public static void count(int howMany) {
 
     }
 
@@ -56,7 +56,7 @@ public class GiantSnail {
      * @param howLarge
      *            the size of the space they are in
      */
-    static void dense(double howMany, double howLarge) {
+    public static void dense(double howMany, double howLarge) {
 
     }
 
@@ -67,7 +67,7 @@ public class GiantSnail {
      * @param howMany
      *            the number of snails
      */
-    static void dense(double howMany) {
+    public static void dense(double howMany) {
 
     }
 }

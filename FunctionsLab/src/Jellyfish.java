@@ -34,14 +34,14 @@ public class Jellyfish {
     /**
      * @return a string about moon jelly.
      */
-    static String moonJelly() {
+    public static String moonJelly() {
 	return "Moon jelly is the most common of the jelly fish";
     }
 
     /**
      * Display text about white spotted jellyfish.
      */
-    static void whiteSpot() {
+    public static void whiteSpot() {
 	System.out.println("The white spotted jellyfish has phosphorescent dots");
     }
 
@@ -50,14 +50,14 @@ public class Jellyfish {
      *            how long in feet
      * @return a String about the lions mane
      */
-    static String lionsMane(int length) {
+    public static String lionsMane(int length) {
 	return "The lion's mane jellyfish is 6ft in diameter and " + length + " feet long.";
     }
 
     /**
      * @return if it's an Australian Sea Wasp
      */
-    static boolean isAustralianSeaWasp() {
+    public static boolean isAustralianSeaWasp() {
 	Random gen = new Random();
 	return gen.nextBoolean();
     }

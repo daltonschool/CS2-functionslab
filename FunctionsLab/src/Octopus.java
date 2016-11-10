@@ -38,7 +38,7 @@ public class Octopus {
      * -------------------
      * 
      */
-    static void octoStatus() {
+    public static void octoStatus() {
 
     }
 
@@ -49,7 +49,7 @@ public class Octopus {
      *            the hand to check
      * @return true if empty
      */
-    static boolean emptyHand(int hand) {
+    public static boolean emptyHand(int hand) {
 	return false;
     }
 
@@ -61,7 +61,7 @@ public class Octopus {
      * @param hand
      *            the hand to put it in
      */
-    static void setHand(String tool, int hand) {
+    public static void setHand(String tool, int hand) {
 
     }
 
@@ -72,7 +72,7 @@ public class Octopus {
      *            the tool to look for
      * @return the hand that tool is in
      */
-    static int findHand(String tool) {
+    public static int findHand(String tool) {
 	return 0;
     }
 
@@ -81,7 +81,7 @@ public class Octopus {
      * 
      * @return name of a random tool
      */
-    static String randomHand() {
+    public static String randomHand() {
 	return null;
     }
 }

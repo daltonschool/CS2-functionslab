@@ -43,35 +43,35 @@ public class SeaCucumbers {
     /**
      * Display a scientific name.
      */
-    static void science() {
+    public static void science() {
 
     }
 
     /**
      * @return number of species
      */
-    static int species() {
+    public static int species() {
 	return 0;
     }
 
     /**
      * @return the word "warty"
      */
-    static String warty() {
+    public static String warty() {
 	return null;
     }
 
     /**
      * @return a random number
      */
-    static Random rando() {
+    public static Random rando() {
 	return null;
     }
 
     /**
      * @return a String array
      */
-    static String[] song() {
+    public static String[] song() {
 	return null;
     }
 }

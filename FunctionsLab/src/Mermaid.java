@@ -48,7 +48,7 @@ public class Mermaid {
      *            true if female, false if not
      * @return mermaid or merman
      */
-    static String name(boolean isFemale) {
+    public static String name(boolean isFemale) {
 	return null;
     }
 
@@ -59,7 +59,7 @@ public class Mermaid {
      *            an array of ages
      * @return the largest number in the array
      */
-    static int oldest(int[] ages) {
+    public static int oldest(int[] ages) {
 	return 0;
     }
 
@@ -81,7 +81,7 @@ public class Mermaid {
      *            the number of ages to give
      * @return the array of ages
      */
-    static int[] getAges(int count) {
+    public static int[] getAges(int count) {
 	return null;
     }
 }
