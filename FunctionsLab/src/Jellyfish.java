@@ -5,9 +5,9 @@ import java.util.Random;
  * 
  * Expected output:
  * 
- * Moon jelly is the most common of the jelly fish
+ * Moon jelly is the most common of the jelly fish.
  * 
- * The white spotted jellyfish has phosphorescent dots
+ * The white spotted jellyfish has phosphorescent dots.
  * 
  * The lion's mane jellyfish is 6ft in diameter and 100 feet long.
  * 
@@ -21,7 +21,6 @@ import java.util.Random;
 public class Jellyfish {
     // MODIFY THIS CODE:
     /**
-     * 
      * @param args
      *            command line input (not used)
      */
