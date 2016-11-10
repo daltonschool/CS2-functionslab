@@ -1,3 +1,4 @@
+package app;
 /**
  * Part 3: Take parameters
  * 
@@ -21,10 +22,13 @@ public class GiantSnail {
      *            command line input (not used)
      */
     public static void main(String[] args) {
+	final int numSnails = 78000;
+	final int sqFeetFlorida = 65750;
+	
 	invade("Miami, Florida");
-	count(78000); // snails
-	dense(78000, 65750); // snails, sq ft size of florida
-	dense(78000);
+	count(numSnails); // snails
+	dense(numSnails, sqFeetFlorida); // snails, sq ft size of florida
+	dense(numSnails);
     }
 
     // MODIFY STARTING HERE:
